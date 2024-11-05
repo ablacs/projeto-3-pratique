@@ -1,0 +1,45 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+.navbar{
+    background-color: #0D0D0D;
+}
+#cabecalho .nav .nav-link.active{
+    background-color: #95C623;
+    color: #0D0D0D;
+}
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover,.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+.section-title{
+    font-family: anton, sans-serif;
+}
+.text-colored{
+    color: #95C623;
+}
+#sobre-a-academia, #modalidades{
+    background-color:#8D8D8D ;
+}
+.nav-cardapio .nav-link.active,
+#contato button{
+    background-color: #95C623;
+    color: #fff;
+}
+.nav-cardapio .nav-link:hover{
+    color: #95C623;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links li a {
+    text-decoration: none;
+}
+#mensagem{
+    resize: none;
+}
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}

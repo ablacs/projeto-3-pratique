@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fury</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Fury combat</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-academia" class="nav-link ">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a academia
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#competicoes" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Competições
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#modalidades" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossas modalidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+            <section id="sobre-a-academia">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active " data-bs-interval="2000">
+                            <img src="./images/lutador.jpg" alt="Lutador" class="w-100">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./images/mma.jpg" alt="Luva de mma"  class="w-100">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./images/gym-1040985_1280.jpg" alt="Pesos de musculação"  class="w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="./images/champ.jpg" class="d-block w-100 rounded" alt="Espaço interno do restaurante">
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-title">Sobre <span class="text-colored">a academia</span></h2>
+                                <p>
+                                    Academia Fury é o lugar onde a força encontra a técnica. Oferecemos uma ampla variedade de modalidades de luta, desde o MMA até o jiu-jitsu, muay thai e boxe, com treinamentos dedicados a todas as idades e níveis de habilidade. Além disso, nosso espaço conta com uma área completa de musculação, equipada com aparelhos de ponta, para garantir o desenvolvimento físico dos nossos atletas. Nosso foco vai além do condicionamento físico – estamos comprometidos em formar campeões, tanto no tatame quanto na vida, com disciplina, dedicação e garra. Aqui, você será desafiado a superar seus limites e se tornar a melhor versão de si mesmo!
+                                </p>
+                                <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                                <p>
+                                    Na Academia Fury, nosso espaço foi projetado para oferecer a melhor experiência tanto no treinamento de artes marciais quanto na musculação. Contamos com tatames amplos e de alta qualidade, garantindo segurança e conforto durante os treinos de luta. A área de musculação é equipada com aparelhos modernos, permitindo um treino eficiente e completo para todos os grupos musculares.
+
+                                    O ambiente da Fury é enérgico e motivador, com uma atmosfera que inspira superação e determinação. Seja você iniciante ou atleta avançado, encontrará um espaço que combina disciplina, força e foco, cercado por uma comunidade que valoriza a evolução física e mental. Aqui, cada detalhe foi pensado para impulsionar seu desempenho e promover um treinamento intenso e eficaz.
+                                </p>
+                                <ul>
+                                    <li>Várias modalidades de luta</li>
+                                    <li>Espaço completo</li>
+                                    <li>Acompanhamento de profissionais</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="competicoes" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Torne-se <span class="text-colored">um campeão</span></h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="./images/boxing-62867_1280.jpg" class="d-block w-100 rounded mb-2" alt="">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-calendar-date"></i>
+                        Estadual de boxe - 26/11/2024
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor voluptatibus maiores officia, labore eligendi nobis, quisquam quibusdam ex numquam ab iusto! Sequi ipsam illo odio vitae molestiae facilis corporis!
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/phuket-3863143_1280.jpg" class="d-block w-100 rounded mb-2" alt="">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-calendar-date"></i>
+                        Campeonato interno de muay thai - 18/11/2024
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor voluptatibus maiores officia, labore eligendi nobis, quisquam quibusdam ex numquam ab iusto! Sequi ipsam illo odio vitae molestiae facilis corporis!
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/professor.jpg" class="d-block w-100 rounded mb-2" alt="">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-calendar-date"></i>
+                        Aula especial com o campeão do peso pesado - a definir
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor voluptatibus maiores officia, labore eligendi nobis, quisquam quibusdam ex numquam ab iusto! Sequi ipsam illo odio vitae molestiae facilis corporis!
+                    </p>
+                </div>
+            </div>
+        </div>
+            </section>
+            <section id="modalidades" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">Nossas <span class="text-colored">modalidades</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio">
+                        <button data-bs-toggle="tab" data-bs-target="#boxe" type="button" class="fw-bold text-start nav-link text-colored active">Boxe</button>
+                        <button data-bs-toggle="tab" data-bs-target="#thai" type="button" class="fw-bold text-start nav-link text-colored ">Muay Thai</button>
+                        <button data-bs-toggle="tab" data-bs-target="#jiu" type="button" class="fw-bold text-start nav-link text-colored">Jiu Jitsu</button>
+                        <button data-bs-toggle="tab" data-bs-target="#defesa" type="button" class="fw-bold text-start nav-link text-colored">Defesa pessoal</button>
+                        <button data-bs-toggle="tab" data-bs-target="#musculacao" type="button" class="fw-bold text-start nav-link text-colored">Muscuçação</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="boxe">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/boxe.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Aulas de boxe</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/luva.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Turma focada em campeonatos</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/boxe.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Boxe</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/boxe.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Boxe</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/boxe.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Boxe</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/boxe.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Boxe</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane " id="thai">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/thai.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Aulas de muay thai para adultos</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/lutador.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Turma focada em campeonatos</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane " id="jiu">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/jiu.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Jiu Jitsu para todas as idades</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/jiu.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Jiu Jitsu no gi (sem kimono)</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/jiu.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Treino de resistência</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/jiu.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Aulão todo sábado pela manhã</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane " id="defesa">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/defesa.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Defesa pessoal para todas as idades</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/defesa.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Aulas de defesa pessoal exclusiva para mulheres</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/defesa.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Aulão de defesa pessoal aos sabados</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane " id="musculacao">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/gym-1040985_1280.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Sala de musculação já inclusa na mensalidade</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./images/personal.jpg" alt="">
+                                    <h5 class="mt-2 text-colored fw-bold">Acompanhamento profissional </h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+            <section id="contato" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form >
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea id="mensagem" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        
+                        <p>
+                            Rua teste exemplo número 145, bairro Bootstrap - Brasília - DF
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </section>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+    $('#telefone').mask('(00) 00000-0000');
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
